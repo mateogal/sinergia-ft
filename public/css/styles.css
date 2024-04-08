@@ -1,0 +1,206 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: rgb(226, 225, 225);
+}
+
+.title-primary{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.2rem;
+}
+
+.bg-light2 {
+    background-color: #e6eff8 !important;
+}
+
+/*Inicio*/
+#introfondo{
+    background: url("/images/1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 10%;
+    position: relative;
+}
+
+#bg-overlay{
+    opacity: 0.5;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: contain;
+    z-index: 1;
+}
+
+#desc{
+    padding-top: 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.swiper-container{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; */
+    /* background: #fff; */
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.swiper-slide > img{
+    max-height: 500px;
+    /* width: 100%; */
+    max-width: 100%;
+}
+
+/* Next Match Section */
+
+#next-match-section{
+    background: #edf7f7;
+}
+
+@media only screen and (max-width: 420px){
+    #desc{
+        padding-top: 60%;
+        padding-bottom: 20%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .swiper-container img{
+        max-width: 100%;
+        max-height: 300px;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 1000px){
+    #animate_desc > img{
+        /* max-height: 100px; */
+        max-width: 300px;
+    }
+}
+
+#ig-fondo{
+    background: url("/images/2.png") no-repeat center center fixed;
+    background-size: cover;
+    /* padding-bottom: 10%; */
+    /* position: relative; */
+}
+
+#curso-fondo{
+    background: url("/images/cursos.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* padding-bottom: 10%; */
+    /* position: relative; */
+}
+
+#img_hovers > #idea1_hove{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+#img_hovers:hover > #idea1_hove{
+    visibility: visible;
+    transition-timing-function: ease;
+}
+
+#img_hovers:hover > #idea1_orig{
+    opacity: 0;
+}
+
+#img_hovers > #idea2_hove{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+#img_hovers:hover > #idea2_hove{
+    visibility: visible;
+    transition-timing-function: ease;
+}
+
+#img_hovers:hover > #idea2_orig{
+    opacity: 0;
+}
+
+#img_hovers > #idea3_hove{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+#img_hovers:hover > #idea3_hove{
+    visibility: visible;
+    transition-property: visibility;
+    transition-timing-function: ease;
+    /* transition-delay: 2s; */
+}
+
+#img_hovers:hover > #idea3_orig{
+    opacity: 0;
+}
+
+#prox_maq_title{
+    background: rgb(226,215,215);
+    background: -moz-linear-gradient(180deg, rgba(226,215,215,1) 0%, rgba(230,153,224,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(226,215,215,1) 0%, rgba(230,153,224,1) 100%);
+    background: linear-gradient(180deg, rgba(226,215,215,1) 0%, rgba(230,153,224,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2d7d7",endColorstr="#e699e0",GradientType=1);
+    opacity: 0;
+    z-index: 999;
+}
+
+/*Footer*/
+#footerfondo{
+    background: #222;
+    color: #aba6a5 !important;
+}
+
+#footerfondo h5{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#footerfondo p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footerfondo a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#footerfondo a:hover{
+    color: #81BEF7;
+}
+
+#footerfondo a p{
+    margin-bottom: 1%;
+}
+
+#footerfondo a img:hover{
+    opacity: 0.7;
+}
